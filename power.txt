@@ -1,0 +1,23 @@
+
+
+By using Excel,the critical value can be calculated as : 
+For  alpha=0.01  the critical value Z_(alpha)=NORM.S.INV(1-alpha)
+=NORM.S.INV(1-0.01)
+=2.3263
+
+
+For  beta=0.05  the critical value Z_(beta)=NORM.S.INV(1-beta)
+=NORM.S.INV(1-0.05)
+=1.6450
+
+n=([(Z_(alpha)+Z_(beta))*sigma)/(mu-mu_1))^2
+
+=(((2.3263+1.6450)*0.020)/((4.50-4.52)))^2
+=15.7712
+≈16                ........ rounding  to the next number            
+
+c=mu+Z_(beta)*(sigma/sqrt(n))
+
+=4.50+1.645*(0.020/sqrt(16))
+=4.5082
+
